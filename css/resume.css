@@ -1,0 +1,30 @@
+html, button, input, select, textarea{
+    color: #444;
+}
+
+html{
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #FFF;
+}
+
+#wrapper{
+    max-width: 900px;
+    min-width: 320px;
+    text-align: center;
+    align-content: left;
+}
+
+header>img{
+    margin-left: auto;
+    display: block;
+    border-radius: 1px;
+    right: 50;
+    color: #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#wrapper #header h1{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
