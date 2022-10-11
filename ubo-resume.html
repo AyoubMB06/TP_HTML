@@ -14,6 +14,13 @@
             <meta name="keywords" content="web,developer,resume"/>
             <meta name="author" content="Mon nom">
             <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <link rel="stylesheet" href="css/resume.css"/>
+            <link rel="stylesheet" href="css/responsive.css"/>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
             
             <!--[if lt IE 9]>
                 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
@@ -23,20 +30,23 @@
         
         
         <body>
-            
-            <div id="wrapper"></div>
+        <div id="wrapper">
 
-            <header>
-
-                <h1>Ayoub Mancour Billah</h1>
-                <h2>Etudiant en Master 2 Double Diplome</h2>
-                <img src="pic.jpg" width="100px">
-                <h3>4 Rue des Archives, Brest</h3>
-                <h3>06/06/1997</h3>
-                <h3>ayoub.mancourbillah@univ-brest.fr</h3>
-                <h3>Marocain</h3>
-    
-            </header>
+            <i class="fa fa-camera-retro"></i>
+        
+            <section id="header">
+                <header>
+                    
+                    <img src="https://st.depositphotos.com/1909187/2297/i/450/depositphotos_22971972-stock-photo-blank-white-male-head-front.jpg" width="150px">
+                    <h1>Ayoub Mancour Billah</h1>
+                    <h1>Etudiant en Master 2 Double Diplome</h1>
+                    <h3>4 Rue des Archives, Brest</h3>
+                    <h3>06/06/1997</h3>
+                    <h3>ayoub.mancourbillah@etudiant.univ-brest.fr</h3>
+                    <h3>Marocain</h3>
+                    
+                </header>
+            </section>
             <hr>
             <section id="Competences">
                 <article class="contenu-cv">
@@ -102,6 +112,36 @@
                 <a href="https://www.github.com"target="_blank"><h3>Page Github</h3></a>
 
             </footer>
+
+        </div>
+        <hr>
+        <div itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jane Doe</span>
+            <!-- <img src="janedoe.jpg" itemprop="image" alt="Photo of Jane Doe"/> -->
+          
+            <span itemprop="jobTitle">Professor</span>
+            <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+              <span itemprop="streetAddress">
+                20341 Whitworth Institute
+                405 N. Whitworth
+              </span>
+              <span itemprop="addressLocality">Seattle</span>,
+              <span itemprop="addressRegion">WA</span>
+              <span itemprop="postalCode">98052</span>
+            </div>
+            <span itemprop="telephone">(425) 123-4567</span>
+            <a href="mailto:jane-doe@xyz.edu" itemprop="email">
+              jane-doe@xyz.edu</a>
+          
+            Jane's home page:
+            <a href="http://www.janedoe.com" itemprop="url">janedoe.com</a>
+          
+            Graduate students:
+            <a href="http://www.xyz.edu/students/alicejones.html" itemprop="colleague">
+              Alice Jones</a>
+            <a href="http://www.xyz.edu/students/bobsmith.html" itemprop="colleague">
+              Bob Smith</a>
+          </div>
 
         </body>
 
