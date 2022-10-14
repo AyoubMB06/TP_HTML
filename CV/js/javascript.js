@@ -95,3 +95,37 @@ tippy('#python', {
   followCursor: true,
   placement: 'bottom'
 });
+
+
+//stars
+function  evaluerConnaissance(){
+  let competances = document.querySelectorAll("li.tooltip");
+  try {
+    for(let i=0; i < competances.length; i++){
+      let r = competances[i].getElementsByTagName("strong")[0].getAttribute("rating");
+      
+          if(r!=null){
+
+              let starts = '<span style="color:#eeee6a; "  >' 
+
+              for(let j=0; j< r; j++){
+                  starts+="★";
+              }
+              starts += '</span>';
+
+              starts += '<span>'
+              for(let j=r; j<5; j++){
+                  starts+="★";
+              }
+              starts += '</span>';
+
+              competances[i].innerHTML += starts;
+
+          }
+
+      }
+  } catch (error) {
+
+  }
+}
+evaluerConnaissance();
